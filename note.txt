@@ -1,0 +1,553 @@
+Form information: [
+  {
+    "action": "",
+    "method": "get",
+    "attributes": {
+      "id": "query-builder-test-form",
+      "action": "",
+      "accept-charset": "UTF-8",
+      "method": "get"
+    },
+    "inputs": [
+      {
+        "type": "text",
+        "name": "query-builder-test",
+        "value": "",
+        "attributes": {
+          "id": "query-builder-test",
+          "name": "query-builder-test",
+          "value": "",
+          "autocomplete": "off",
+          "type": "text",
+          "role": "combobox",
+          "spellcheck": "false",
+          "aria-expanded": "false",
+          "aria-describedby": "validation-8988537a-7eec-4606-a0ed-51f27584154d",
+          "data-target": "query-builder.input",
+          "data-action": "\n          input:query-builder#inputChange\n          blur:query-builder#inputBlur\n          keydown:query-builder#inputKeydown\n          focus:query-builder#inputFocus\n        ",
+          "data-view-component": "true",
+          "class": "FormControl-input QueryBuilder-Input FormControl-medium",
+          "aria-controls": "query-builder-test-results",
+          "aria-autocomplete": "list",
+          "aria-haspopup": "listbox",
+          "style": "width: 300px;"
+        }
+      }
+    ],
+    "buttons": [
+      {
+        "type": "button",
+        "name": "",
+        "value": "",
+        "text": "",
+        "attributes": {
+          "role": "button",
+          "id": "query-builder-test-clear-button",
+          "aria-labelledby": "query-builder-test-clear query-builder-test-label",
+          "data-action": "\n                  click:query-builder#clear\n                  focus:query-builder#clearButtonFocus\n                  blur:query-builder#clearButtonBlur\n                ",
+          "variant": "small",
+          "type": "button",
+          "data-view-component": "true",
+          "class": "Button Button--iconOnly Button--invisible Button--medium mr-1 tmp-mr-1 px-2 tmp-px-2 py-0 tmp-py-0 d-flex flex-items-center rounded-1 color-fg-muted"
+        }
+      }
+    ]
+  },
+  {
+    "action": "/search/feedback",
+    "method": "post",
+    "attributes": {
+      "id": "code-search-feedback-form",
+      "data-turbo": "false",
+      "action": "/search/feedback",
+      "accept-charset": "UTF-8",
+      "method": "post"
+    },
+    "inputs": [
+      {
+        "type": "hidden",
+        "name": "authenticity_token",
+        "value": "st089rQWSMA8kbKH82kE/rqN99Ri+6nXXVbVmt4UB18NhP7TwZ08l3QKSBvzOPshd+pMHV4ENfNax+415P5wwg==",
+        "attributes": {
+          "type": "hidden",
+          "data-csrf": "true",
+          "name": "authenticity_token",
+          "value": "st089rQWSMA8kbKH82kE/rqN99Ri+6nXXVbVmt4UB18NhP7TwZ08l3QKSBvzOPshd+pMHV4ENfNax+415P5wwg=="
+        }
+      },
+      {
+        "type": "textarea",
+        "name": "feedback",
+        "value": "",
+        "attributes": {
+          "name": "feedback",
+          "class": "form-control width-full mb-2",
+          "style": "height: 120px",
+          "id": "feedback"
+        }
+      },
+      {
+        "type": "checkbox",
+        "name": "include_email",
+        "value": "",
+        "attributes": {
+          "name": "include_email",
+          "id": "include_email",
+          "aria-label": "Include my email address so I can be contacted",
+          "class": "form-control mr-2",
+          "type": "checkbox"
+        }
+      }
+    ],
+    "buttons": []
+  },
+  {
+    "action": "/search/custom_scopes",
+    "method": "post",
+    "attributes": {
+      "id": "custom-scopes-dialog-form",
+      "data-turbo": "false",
+      "action": "/search/custom_scopes",
+      "accept-charset": "UTF-8",
+      "method": "post"
+    },
+    "inputs": [
+      {
+        "type": "hidden",
+        "name": "authenticity_token",
+        "value": "20tQUSEhaPpYXtNgf16NjJDSf71QJStd/RfwzlR5sGwrlBLXku0Pi7ZB5iDRXOmzGjoRg3jVNzKR1Ko41ZT+FQ==",
+        "attributes": {
+          "type": "hidden",
+          "data-csrf": "true",
+          "name": "authenticity_token",
+          "value": "20tQUSEhaPpYXtNgf16NjJDSf71QJStd/RfwzlR5sGwrlBLXku0Pi7ZB5iDRXOmzGjoRg3jVNzKR1Ko41ZT+FQ=="
+        }
+      },
+      {
+        "type": "hidden",
+        "name": "custom_scope_id",
+        "value": "",
+        "attributes": {
+          "type": "hidden",
+          "id": "custom_scope_id",
+          "name": "custom_scope_id",
+          "data-target": "custom-scopes.customScopesIdField"
+        }
+      },
+      {
+        "type": "text",
+        "name": "custom_scope_name",
+        "value": "",
+        "attributes": {
+          "type": "text",
+          "name": "custom_scope_name",
+          "id": "custom_scope_name",
+          "data-target": "custom-scopes.customScopesNameField",
+          "class": "form-control",
+          "autocomplete": "off",
+          "placeholder": "github-ruby",
+          "required": "",
+          "maxlength": "50",
+          "spellcheck": "false"
+        }
+      },
+      {
+        "type": "hidden",
+        "name": "",
+        "value": "/lw+/Ry8ImmE4XO8F1REdogDvZi1w7L+/TNsVLH/GlvAL9Ca6uVvlgoCwJHqIVZkT2yQ119V3VOLUu1g8MzyeA==",
+        "attributes": {
+          "type": "hidden",
+          "data-csrf": "true",
+          "value": "/lw+/Ry8ImmE4XO8F1REdogDvZi1w7L+/TNsVLH/GlvAL9Ca6uVvlgoCwJHqIVZkT2yQ119V3VOLUu1g8MzyeA=="
+        }
+      },
+      {
+        "type": "text",
+        "name": "custom_scope_query",
+        "value": "",
+        "attributes": {
+          "type": "text",
+          "name": "custom_scope_query",
+          "id": "custom_scope_query",
+          "data-target": "custom-scopes.customScopesQueryField",
+          "class": "form-control",
+          "autocomplete": "off",
+          "placeholder": "(repo:mona/a OR repo:mona/b) AND lang:python",
+          "required": "",
+          "maxlength": "500"
+        }
+      }
+    ],
+    "buttons": []
+  },
+  {
+    "action": "/search",
+    "method": "get",
+    "attributes": {
+      "id": "search_form",
+      "class": "search_repos",
+      "data-turbo": "false",
+      "action": "/search",
+      "accept-charset": "UTF-8",
+      "method": "get"
+    },
+    "inputs": [
+      {
+        "type": "text",
+        "name": "",
+        "value": "",
+        "attributes": {
+          "aria-labelledby": "search-title",
+          "class": "form-control input-block search-page-input js-advanced-search-input js-advanced-search-prefix",
+          "data-search-prefix": "",
+          "type": "text",
+          "value": ""
+        }
+      },
+      {
+        "type": "hidden",
+        "name": "q",
+        "value": "",
+        "attributes": {
+          "class": "js-search-query",
+          "type": "hidden",
+          "name": "q",
+          "value": ""
+        }
+      },
+      {
+        "type": "hidden",
+        "name": "type",
+        "value": "Repositories",
+        "attributes": {
+          "class": "js-type-value",
+          "type": "hidden",
+          "name": "type",
+          "value": "Repositories"
+        }
+      },
+      {
+        "type": "hidden",
+        "name": "ref",
+        "value": "advsearch",
+        "attributes": {
+          "type": "hidden",
+          "name": "ref",
+          "value": "advsearch"
+        }
+      },
+      {
+        "type": "text",
+        "name": "",
+        "value": "",
+        "attributes": {
+          "id": "search_from",
+          "type": "text",
+          "class": "form-control js-advanced-search-prefix",
+          "placeholder": "github, atom, electron, octokit",
+          "data-search-prefix": "user:"
+        }
+      },
+      {
+        "type": "text",
+        "name": "",
+        "value": "",
+        "attributes": {
+          "id": "search_repos",
+          "type": "text",
+          "class": "form-control js-advanced-search-prefix",
+          "value": "",
+          "placeholder": "twbs/bootstrap, rails/rails",
+          "data-search-prefix": "repo:"
+        }
+      },
+      {
+        "type": "text",
+        "name": "",
+        "value": "",
+        "attributes": {
+          "id": "search_date",
+          "type": "text",
+          "class": "form-control js-advanced-search-prefix",
+          "value": "",
+          "placeholder": ">YYYY-MM-DD, YYYY-MM-DD",
+          "data-search-prefix": "created:"
+        }
+      },
+      {
+        "type": "text",
+        "name": "",
+        "value": "",
+        "attributes": {
+          "id": "search_stars",
+          "type": "text",
+          "class": "form-control js-advanced-search-prefix",
+          "placeholder": "0..100, 200, >1000",
+          "data-search-prefix": "stars:",
+          "data-search-type": "Repositories"
+        }
+      },
+      {
+        "type": "text",
+        "name": "",
+        "value": "",
+        "attributes": {
+          "id": "search_forks",
+          "type": "text",
+          "class": "form-control js-advanced-search-prefix",
+          "placeholder": "50..100, 200, <5",
+          "data-search-prefix": "forks:",
+          "data-search-type": "Repositories"
+        }
+      },
+      {
+        "type": "text",
+        "name": "",
+        "value": "",
+        "attributes": {
+          "id": "search_size",
+          "type": "text",
+          "class": "form-control js-advanced-search-prefix",
+          "placeholder": "Repository size in KB",
+          "data-search-prefix": "size:",
+          "data-search-type": "Repositories"
+        }
+      },
+      {
+        "type": "text",
+        "name": "",
+        "value": "",
+        "attributes": {
+          "id": "search_push",
+          "type": "text",
+          "class": "form-control js-advanced-search-prefix",
+          "value": "",
+          "placeholder": "<YYYY-MM-DD",
+          "data-search-prefix": "pushed:",
+          "data-search-type": "Repositories"
+        }
+      },
+      {
+        "type": "text",
+        "name": "",
+        "value": "",
+        "attributes": {
+          "id": "search_extension",
+          "type": "text",
+          "class": "form-control js-advanced-search-prefix",
+          "value": "",
+          "placeholder": "rb, py, jpg",
+          "data-search-type": "Code",
+          "data-search-prefix": "path:",
+          "data-glob-pattern": "*.$0",
+          "data-regex-pattern": "/.$0$/",
+          "data-use-or": "true"
+        }
+      },
+      {
+        "type": "text",
+        "name": "",
+        "value": "",
+        "attributes": {
+          "id": "search_path",
+          "type": "text",
+          "class": "form-control js-advanced-search-prefix",
+          "value": "",
+          "placeholder": "/foo/bar/baz/qux",
+          "data-search-prefix": "path:",
+          "data-search-type": "Code",
+          "data-use-or": ""
+        }
+      },
+      {
+        "type": "text",
+        "name": "",
+        "value": "",
+        "attributes": {
+          "id": "search_filename",
+          "type": "text",
+          "class": "form-control js-advanced-search-prefix",
+          "placeholder": "app.rb, footer.erb",
+          "data-search-type": "code:",
+          "data-search-prefix": "path:",
+          "data-glob-pattern": "**/$0",
+          "data-regex-pattern": "/(^|/)$0$/",
+          "data-use-or": "true"
+        }
+      },
+      {
+        "type": "text",
+        "name": "",
+        "value": "",
+        "attributes": {
+          "id": "search_comments",
+          "type": "text",
+          "class": "form-control js-advanced-search-prefix",
+          "value": "",
+          "placeholder": "0..100, >442",
+          "data-search-prefix": "comments:",
+          "data-search-type": "Issues"
+        }
+      },
+      {
+        "type": "text",
+        "name": "",
+        "value": "",
+        "attributes": {
+          "id": "search_labels",
+          "type": "text",
+          "class": "form-control js-advanced-search-prefix",
+          "value": "",
+          "placeholder": "bug, ie6",
+          "data-search-prefix": "label:",
+          "data-search-type": "Issues"
+        }
+      },
+      {
+        "type": "text",
+        "name": "",
+        "value": "",
+        "attributes": {
+          "id": "search_author",
+          "type": "text",
+          "class": "form-control js-advanced-search-prefix",
+          "value": "",
+          "placeholder": "hubot, octocat",
+          "data-search-prefix": "author:",
+          "data-search-type": "Issues"
+        }
+      },
+      {
+        "type": "text",
+        "name": "",
+        "value": "",
+        "attributes": {
+          "id": "search_mention",
+          "type": "text",
+          "class": "form-control js-advanced-search-prefix",
+          "value": "",
+          "placeholder": "tpope, mattt",
+          "data-search-prefix": "mentions:",
+          "data-search-type": "Issues"
+        }
+      },
+      {
+        "type": "text",
+        "name": "",
+        "value": "",
+        "attributes": {
+          "id": "search_assignment",
+          "type": "text",
+          "class": "form-control js-advanced-search-prefix",
+          "value": "",
+          "placeholder": "twp, jim",
+          "data-search-prefix": "assignee:",
+          "data-search-type": "Issues"
+        }
+      },
+      {
+        "type": "text",
+        "name": "",
+        "value": "",
+        "attributes": {
+          "id": "search_updated_date",
+          "type": "text",
+          "class": "form-control js-advanced-search-prefix",
+          "value": "",
+          "placeholder": "<YYYY-MM-DD",
+          "data-search-prefix": "updated:",
+          "data-search-type": "Issues"
+        }
+      },
+      {
+        "type": "text",
+        "name": "",
+        "value": "",
+        "attributes": {
+          "id": "search_full_name",
+          "type": "text",
+          "class": "form-control js-advanced-search-prefix",
+          "placeholder": "Grace Hopper",
+          "data-search-prefix": "fullname:",
+          "data-search-type": "Users"
+        }
+      },
+      {
+        "type": "text",
+        "name": "",
+        "value": "",
+        "attributes": {
+          "id": "search_location",
+          "type": "text",
+          "class": "form-control js-advanced-search-prefix",
+          "placeholder": "San Francisco, CA",
+          "data-search-prefix": "location:",
+          "data-search-type": "Users"
+        }
+      },
+      {
+        "type": "text",
+        "name": "",
+        "value": "",
+        "attributes": {
+          "id": "search_followers",
+          "type": "text",
+          "class": "form-control js-advanced-search-prefix",
+          "placeholder": "20..50, >200, <2",
+          "data-search-prefix": "followers:",
+          "data-search-type": "Users"
+        }
+      },
+      {
+        "type": "text",
+        "name": "",
+        "value": "",
+        "attributes": {
+          "id": "search_public_repos",
+          "type": "text",
+          "class": "form-control js-advanced-search-prefix",
+          "placeholder": "0, <42, >5",
+          "data-search-prefix": "repos:",
+          "data-search-type": "Users"
+        }
+      },
+      {
+        "type": "text",
+        "name": "",
+        "value": "",
+        "attributes": {
+          "id": "search_wiki_updated_date",
+          "type": "text",
+          "class": "form-control js-advanced-search-prefix",
+          "placeholder": "<YYYY-MM-DD",
+          "data-search-prefix": "updated:",
+          "data-search-type": "Wiki"
+        }
+      }
+    ],
+    "buttons": [
+      {
+        "type": "submit",
+        "name": "",
+        "value": "",
+        "text": "Search",
+        "attributes": {
+          "type": "submit",
+          "data-view-component": "true",
+          "class": "btn flex-auto"
+        }
+      },
+      {
+        "type": "submit",
+        "name": "",
+        "value": "",
+        "text": "Search",
+        "attributes": {
+          "type": "submit",
+          "data-view-component": "true",
+          "class": "btn flex-auto"
+        }
+      }
+    ]
+  }
+]
